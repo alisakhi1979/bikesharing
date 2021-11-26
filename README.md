@@ -21,12 +21,30 @@ This analysis offers the investors of the bike-sharing program an insight to the
 
 ## Results:
 
+### Checkout Time 
+
 ![checkout](images/checkout_time.png)
+
+### Checkout Time by Gender
 
 ![gender](images/checkout_gender.png)
 
+### Trips by Type of User
+
 ![tripuser](images/trip_user.png)
+
+### Trips by Weekdays
 
 ![tripdays](images/trip_weekdays.png)
 
-![tripdaysgender](images/trip_weekdays_gender.png)
+### Trips by Weekdays and Gender
+
+![tripdaysgender](images/trp_weekdays_gender.png)
+
+### Top starting Locations
+
+![start](images/top_start_loc.png)
+
+### Top Ending Locations
+
+![end](images/top_end_loc.png)
