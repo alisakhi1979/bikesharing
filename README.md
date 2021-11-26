@@ -3,23 +3,30 @@
 
 ## Analysis Overview
 
-The purpose of this analysis is to map the earthquakes with magnitude greater than 4.5 on the map along with earth techno plates boundries. The map generated has three layers i.e. Dark, Street and Satelite. 
+This analysis offers the investors of the bike-sharing program an insight to the bike trips in NYC. The analysis present the findings as follows:
+
+1. Top start location for bike trips
+2. Top ending location for bike trips
+3. length of time that bikes are checked out for all riders and genders
+4. number of bike trips for all riders and genders for each hour of each day of the week
+5. number of bike trips for each type of user and gender for each day of the week.
 
 ## Data Resources:
-- Earthquakes: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
-- Earthquakes above 4.5 magnitude: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson
-- Tecnotic Plates boundries: https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json
+- Citi Bike Dataset for Aug 2019 (https://s3.amazonaws.com/tripdata/index.html)
 
 ## Softwares: 
-- HTML/CSS
-- JavaScript
-- LeafLet
-- VS Code
+- Python 3
+- Jupyter Notebook
+- Tableau
 
 ## Results:
 
-![all](images/all_satelite.png)
+![checkout](images/checkout_time.png)
 
-![major](images/major_street.png)
+![gender](images/checkout_gender.png)
 
-![tectonic](images/tectonic_dark.png)
+![tripuser](images/trip_user.png)
+
+![tripdays](images/trip_weekdays.png)
+
+![tripdaysgender](images/trip_weekdays_gender.png)
